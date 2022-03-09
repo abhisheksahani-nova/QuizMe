@@ -1,0 +1,24 @@
+.quizme-custom-nav{
+    margin-bottom: 0px;
+    background-color: #D18CE0;
+}
+
+.quizme-inner-container{
+    width: 10%;
+}
+
+.quizme-custom-nav-clr{
+    color: var(--light-clr);
+}
+
+.quiz-me-category-cont{
+    width: 70%;
+    justify-content: space-around;
+}
+
+.quizme-category-heading{
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    color: #9D84B7;
+}
