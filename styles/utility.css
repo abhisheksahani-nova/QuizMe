@@ -1,0 +1,20 @@
+:root {
+    --quizme-pri-clr: #30475E;
+    --quizme-sec-clr: #7882A4;
+}
+
+.justify-cont-center{
+    justify-content: center;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.mr-small{
+    margin-right: 0.5rem;
+}
+
+.quizme-cta-btn{
+    background-color: var(--quizme-pri-clr);
+}

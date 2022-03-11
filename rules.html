@@ -20,6 +20,8 @@
     />
     <link rel="stylesheet" href="https://cosmic-ui.netlify.app/style.css" />
     <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="stylesheet" href="./styles/utility.css" />
+    <link rel="stylesheet" href="./styles/rules.css" />
   </head>
   <body>
     <nav class="nav-bar boxShadow quizme-custom-nav">
@@ -39,5 +41,44 @@
         ></a>
       </div>
     </nav>
+    <section class="d-flex justify-cont-center ">
+      <div class="quizme-rules-container">
+        <h2 class="t-align-center mb-2">Quiz Instructions📖</h2>
+
+        <div class="d-flex align-item-center mb-2">
+          <i class="fa-solid fa-circle-question mr-small"></i>
+          <p>5 Questions - There will be 5 questions in total.</p>
+        </div>
+
+        <div class="d-flex align-item-center mb-2">
+          <i class="fa-solid fa-marker mr-small"></i>
+          <p>10 Marks - You will get 10 marks for each right answer.</p>
+        </div>
+
+        <div class="d-flex align-item-center mb-2">
+          <i class="fa-solid fa-marker mr-small"></i>
+          <p>0 Marks - You will get 0 marks for wrong answer.</p>
+        </div>
+
+        <div class="d-flex align-item-center mb-2">
+          <i class="fa-solid fa-square-check mr-small"></i>
+          <p>
+            Submit Answer - Select the right option and then click submit to
+            submit your answer.
+          </p>
+        </div>
+
+        <div class="d-flex align-item-center mb-2">
+          <i class="fa-solid fa-triangle-exclamation mr-small"></i>
+          <p>
+            Remember - Once you click submit you can't go back to that question
+            again.
+          </p>
+        </div>
+        <div class="d-flex justify-cont-center align-item-center">
+            <button class="btn quizme-cta-btn quizme-rule-custom-btn-style">Play</button>            
+        </div>
+      </div>
+    </section>
   </body>
 </html>

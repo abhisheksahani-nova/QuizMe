@@ -1,6 +1,8 @@
+@import url(./utility.css);
+
 .quizme-custom-nav {
   margin-bottom: 0px;
-  background-color: #30475E;
+  background-color: var(--quizme-pri-clr);
 }
 
 .quizme-inner-container {
@@ -24,7 +26,7 @@
   text-align: center;
   padding: 1rem;
   margin: 2rem;
-  color: #7882A4;
+  color: var(--quizme-sec-clr);
 }
 
 .quizme-playbtn-container {
