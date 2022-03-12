@@ -1,0 +1,10 @@
+.quizme-rules-container{
+    margin-top: 5rem;
+    border: 2px solid var(--border-clr);
+    padding: 2rem;
+}
+
+.quizme-rule-custom-btn-style{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
