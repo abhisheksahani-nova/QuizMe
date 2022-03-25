@@ -1,0 +1,21 @@
+.quizme-questionpages-container {
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 45%;
+}
+
+.questions-custom-btn {
+  background-color: var(--custom-sec-clr);
+  padding: 1rem;
+}
+
+.question-custom-btn-outline {
+  background-color: var(--light-clr);
+  color: var(--quizme-pri-clr);
+  border: 1px solid var(--quizme-pri-clr);
+}
+
+.question-custom-btn-outline:hover {
+  background-color: var(--quizme-pri-clr);
+  color: var(--light-clr);
+}

@@ -7,8 +7,24 @@
     justify-content: center;
 }
 
+.justify-cont-end{
+    justify-content: end;
+}
+
+.justify-cont-spacebetween{
+    justify-content: space-between;
+}
+
 .align-item-center{
     align-items: center;
+}
+
+.flex-d-col{
+    flex-direction: column;
+}
+
+.flex-gap{
+    gap: 1rem;
 }
 
 .mr-small{
@@ -17,4 +33,8 @@
 
 .quizme-cta-btn{
     background-color: var(--quizme-pri-clr);
+}
+
+.f-size-larger{
+    font-size: larger;
 }
