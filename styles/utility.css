@@ -38,3 +38,7 @@
 .f-size-larger{
     font-size: larger;
 }
+
+.heading-text-clr{
+    color: var(--custom-sec-clr);
+}

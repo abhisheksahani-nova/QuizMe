@@ -1,0 +1,7 @@
+.right-ans-option-style {
+  background-color: var(--success-sec-clr);
+}
+
+.wrong-ans-option-style {
+  background-color: var(--red);
+}
