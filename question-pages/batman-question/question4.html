@@ -19,14 +19,14 @@
       href="https://cosmic-ui.netlify.app/Docs-css/Docs-navbar.css"
     />
     <link rel="stylesheet" href="https://cosmic-ui.netlify.app/style.css" />
-    <link rel="stylesheet" href="../../styles/homepage.css" />
+    <link rel="stylesheet" href="../../styles/index.css" />
     <link rel="stylesheet" href="../../styles/rules.css" />
     <link rel="stylesheet" href="../../styles/questionpage.css" />
   </head>
   <body>
     <nav class="nav-bar boxShadow quizme-custom-nav">
       <div class="nav-innerContainer quizme-inner-container">
-        <h2 class="nav-heading">QuizMe</h2>
+        <a class="quizme-nav-heading" href="../../index.html"><h2 class="nav-heading">QuizMe</h2></a>
       </div>
       <div class="nav-innerContainer nav-icon-container">
         <a
@@ -61,9 +61,11 @@
         </div>
 
         <div class="d-flex justify-cont-end">
-          <button class="btn btn-outline question-custom-btn-outline">
-            Next Question
-          </button>
+          <a href="./question5.html"
+            ><button class="btn btn-outline question-custom-btn-outline">
+              Next Question
+            </button></a
+          >
         </div>
       </div>
     </section>
