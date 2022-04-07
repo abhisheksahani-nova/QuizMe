@@ -46,3 +46,8 @@
 .mb-large {
   margin-bottom: 2.5rem;
 }
+
+.quizme-nav-heading {
+  color: var(--light-clr);
+  text-decoration: none;
+}
